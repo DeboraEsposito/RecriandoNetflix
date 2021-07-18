@@ -16,4 +16,8 @@
     .descricao{
         width: 50%
     }
+
+    .icon{
+        align-items: center;
+    }
 }

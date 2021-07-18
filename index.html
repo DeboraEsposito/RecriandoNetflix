@@ -1,3 +1,4 @@
+<!--CONFG-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,22 +14,32 @@
 <link rel="stylesheet" href="/style/Owl/owl.carousel.min.css">
 <link rel="stylesheet" href="/style/Owl/owl.theme.default.min.css">
 
+<!--CABEÇALHO-->
+
 <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
         <div class="container">
-           <h2 class="logo">FANFLIX</h2>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Fimes</a>
-                <a href="#">Documentários</a>         
-            </nav>
+            <h2 class="logo">FANFLIX</h2>
+            <div class="menu">
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Fimes</a>
+                    <a class="doc" href="#">Documentários</a>  
+                    <button class="busca">Titulos, gêneros
+                    <i id="lupa" class="fas fa-search"></i>
+                    </button>
+                    <img class="avatar" src="/img/perfil (2).jpg">       
+                </nav>
+            </div>               
         </div>
     </header>
+
+<!--FILME PRINCIPAL-->
+
     <main>
-        
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">Jogos Vorazes: A Esperança -</h3>
@@ -49,6 +60,9 @@
             
         </div>
     </main>
+
+<!--CARROSSEL-->
+
     <p class="classe">Só na Fanflix</p>
     <div class="carrossel-filmes">
         <div class="owl-carousel owl-theme">
@@ -135,10 +149,14 @@
                 <img class="box-filme" src="/img/narnia3.jpg">
             </div>
     </div>
+
+    <!--SCRIPTS JS JQUERY-->
     <script src="https://kit.fontawesome.com/79309ddbb2.js" crossorigin="anonymous"></script>
     <script src="/js/Owl/jquery.min.js"></script>
     <script src="/js/Owl/owl.carousel.min.js"></script>
     <script src="/js/Owl/setup.js"></script>
+    <script src="https://kit.fontawesome.com/79309ddbb2.js" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
