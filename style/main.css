@@ -55,22 +55,27 @@ header nav a:hover{
     color: #FFF;
 }
 
-.doc{
-    margin-right: 34rem;
-}
 
 .busca{
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     background-color: rgba(109, 100, 110, 0.103);
     color: #AAA;
     border-radius: 5px;
     text-align: center;
+    margin-left: 26rem;
+    flex-wrap: wrap;
+    
+    
 }
 
 #lupa{
+    padding-left: 1rem;
+}
+
+#bell{
     padding-left: 1rem;
 }
 
