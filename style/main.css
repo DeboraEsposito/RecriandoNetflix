@@ -122,12 +122,12 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 12px;
+    font-size: 15px;
     text-align: justify;
 }
 
 .filme-principal .titulo{
-    margin-top: 5%;
+    margin-top: 15px;
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
 }

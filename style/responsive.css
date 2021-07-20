@@ -15,8 +15,16 @@
 
      .menu{
          justify-content: center;
+         display: flex;         
+         flex-basis: 100%;
+         width: 0;
      }
 
+     .menu .pefil{
+         justify-content: center;
+         display: flex;
+       
+     }
      .menu2{
         flex-direction: row;
         flex-wrap: nowrap;
@@ -57,6 +65,8 @@
     .descricao{
         width: 50%
     }
+
+    
 
    
 }

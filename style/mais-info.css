@@ -1,0 +1,39 @@
+/*--------FILME PRINCIPAL----------*/
+
+.mais-info{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/img_mais-info.jpg");
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.mais-info .descricao{
+    font-family: 'IBM Plex Sans';
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+
+}
+
+.mais-info .titulo{
+    margin-top: 20PX;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans';
+
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.mais-info .container{
+    width: 70%;
+}
