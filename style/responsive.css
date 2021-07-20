@@ -3,21 +3,50 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        display: flexbox;
+        
+     }
+
+     .menu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+        
+    }
+
+    .avatar{
+        margin-left:0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+        margin-bottom: 3px;
+   
+    }
+    
+    .bell{
+        margin-left:0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+        margin-bottom: 3px;
+       
 
     }
+
+    .lupa{
+        margin-left:0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+        margin-bottom: 3px;
         
+    }
 }
 @media screen and (min-width:1000px){
     .descricao{
         width: 50%
     }
+
+   
 }
 
-@media screen and(min-width:400px, max-width:1000px){
-    header{
-        display: flexbox;
-    }
-    }
-}
 
